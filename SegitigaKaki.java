@@ -1,6 +1,7 @@
 public class SegitigaKaki extends Segitiga {
-    
+
     public SegitigaKaki (double alas, double tinggi, double sisi) {
+        super(alas, tinggi, sisi, 0, 0);
         super.setNama("SEGITIGA SAMA KAKI");
         this.hitungLuas(alas, tinggi);
         this.hitungKeliling(sisi, alas);
@@ -11,6 +12,6 @@ public class SegitigaKaki extends Segitiga {
     }
 
     public void hitungKeliling (double sisi, double alas){
-        super.Keliling = 2 * sisi + alas; 
+        super.Keliling = 2 * sisi + alas;
     }
 }

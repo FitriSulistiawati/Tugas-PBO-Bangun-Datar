@@ -1,6 +1,6 @@
 public class Segitiga extends BangunDatar {
-    
-    public Segitiga(double alas, double tinggi, double sisi1, double sisi2, double sisi3){
+
+    public Segitiga(double alas, double tinggi, double sisi1, double sisi2, double sisi3) {
         super.setNama("SEGITIGA");
         this.hitungLuas(alas, tinggi);
         this.hitungKeliling(sisi1, sisi2, sisi3);
